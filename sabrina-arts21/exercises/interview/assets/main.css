@@ -1,0 +1,31 @@
+.question-container {
+  	color: blue;
+  	background: beige;
+  	border: 1px solid blue;
+  	margin: 10px;
+  	padding: 10px;
+  	font-family: monospace;
+  	font-size: 24px;
+}
+
+.picture {
+	height: 100%
+	border-style: solid;
+	border: 10px solid blue; 
+}
+
+.question {
+	font-family: monospace;
+}
+
+.answer {
+	font-size: 36px; 
+}
+
+.second-speaker {
+	color: black; 
+}
+
+span {
+	font-weight: bold;
+}

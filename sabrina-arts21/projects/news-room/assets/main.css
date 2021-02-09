@@ -1,0 +1,119 @@
+@font-face {
+	src: url(fonts/RobotoSlab.ttf);
+	font-family: Roboto Slab;
+	font-weight: bold;
+}
+
+@font-face {
+	src: url(fonts/WorkSans.ttf);
+	font-family: Work Sans;
+}
+
+.american {
+	color: blue;
+}
+
+.chinese {
+	color: red;
+}
+
+.chinese-american {
+	color: purple;
+}
+
+.made-in-china {
+	color: blue;
+	text-decoration: line-through;
+	font-size: 12px; 
+}
+
+.red-line {
+	color: red;
+	width: 20px; 
+}
+
+.blue-line {
+	color: blue;
+	width: 20px; 
+}
+
+.purple-line {
+	color: purple;
+	width: 20px; 
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	font-size: 12px; 
+	position: sticky;
+	top: 0;
+}
+
+.right {
+	position: sticky;
+	top: 0;
+	display: flex;
+	justify-content: flex-end;
+	font-size: 12px; 
+	text-decoration: underline;
+}
+
+.body-wrapper {
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	padding-right: 220px; 
+	padding-left: 220px;
+}
+
+.back {
+	font-family: Work Sans; 
+	color: black;
+	font-size: 14px; 
+}
+
+.spacing {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	padding-right: 220px; 
+	padding-left: 180px;
+	line-height: 1.6; 
+}
+
+
+div {
+	display:flex;
+	justify-content: center;
+}
+
+a {
+	font-family: Roboto Slab;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: Roboto Slab;
+	font-weight: bold;
+}
+
+p {
+	font-family: Work Sans;
+}
+
+ul {
+	font-family: Work Sans;
+}
+
+img {
+	width: 200px;
+	border: 10px;
+	padding-right: 10px;
+}

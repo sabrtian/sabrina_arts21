@@ -1,17 +1,124 @@
-.question-container {
-  	color: blue;
-  	background: beige;
-  	border: 1px solid blue;
+@font-face {
+	src: url(fonts/PlayfairDisplay[wght].ttf);
+	font-family: Playfair Display;
+}
+
+@font-face {
+	src: url(fonts/PlayfairDisplay[wght].ttf);
+	font-family: Playfair Display;
+	font-weight: bold; 
+	font-style: bold; 
+}
+
+@font-face {
+	src: url(fonts/Karla-VariableFont_wght.ttf);
+	font-family: Karla; 
+}
+
+@font-face {
+	src: url(fonts/Mayenne_Sans-Regular_web.ttf);
+	font-family: Mayenne Sans;
+}
+
+.question-container-1 {
+  	color: black;
+  	border: 1px solid black;
   	margin: 10px;
-  	padding: 5px;
-  	font-family: monospace;
-  	font-size: 24px;
+  	padding: 10px;
+  	font-size: 18px;
+  	font-family: Garamond; 
 }
 
-.question {
-
+.question-container-2 {
+  	color: black;
+  	border: 1px solid black;
+  	margin: 10px;
+  	padding: 10px;
+  	font-size: 18px;
+  	font-family: Karla; 
 }
 
-.answer {
+.person-2 {
+	font-family: Playfair Display;
+}
 
+.question-container-3 {
+  	margin: 10px;
+  	padding: 10px;
+  	font-size: 18px;
+  	color: black; 
+  	font-family: Playfair Display; 
+}
+
+.indented {
+	margin: 0 0 25px 25px;
+}
+
+#boxed1 {
+	padding: 10px;
+	background-color: #cfc;
+}
+
+#boxed2 {
+	padding: 10px;
+	background-color: #ffffcc;
+}
+
+.question-container-4 {
+  	margin: 10px;
+  	padding: 10px;
+  	font-size: 18px;
+  	font-family: Playfair Display; 
+  	text-align: center; 
+}
+
+.person-4 {
+	font-weight: bold;
+	text-align: center; 
+	font-size: 22px; 
+}
+
+.question-container-5 {
+  	color: black;
+  	border: 10px solid black;
+  	margin: 10px;
+  	padding: 10px;
+  	font-size: 18px;
+  	font-family: Trebuchet MS
+}
+
+.person-5 {
+  	font-family: Mayenne Sans; 
+  	font-size: 50px; 
+}
+
+.row {
+	flex-direction: row; 
+	padding-right: 50px; 
+	padding-left: 50px; 
+}
+
+.padding {
+	padding-left: 50px;
+}
+
+div {
+	display: flex;
+	flex-direction: column; 
+}
+
+h1 {
+	text-align: center;
+}
+
+img {
+	display: block;
+  	margin-left: auto;
+	margin-right: auto;
+  	width: 50%;
+}
+
+span {
+	font-weight: bold;
+	font-size: 18px;
 }

@@ -1,0 +1,45 @@
+.seed-front {
+	width: 30%; 
+	opacity: 100%;
+	position: absolute;
+	display: inline-block; 
+	left: 100px;
+	top: 0px;
+	z-index: -1;
+}
+
+.seed-back {
+	width: 37%;
+	opacity: 0%;
+	display: inline-block;
+	position: absolute;
+	left: 100px;
+	top: 0px;
+	z-index: -1;
+}
+
+.seed-front:hover {
+	opacity: 0%; 
+	cursor: pointer;
+	display: none; 
+}
+
+.seed-back:hover {
+	opacity: 100%; 
+	cursor: pointer; 
+	display: block; 
+}
+
+.wrapper {
+	display: table; 
+	width: 100%; 
+}
+
+.cell {
+	display: table-cell; 
+	position: relative; 
+}
+
+body {
+	background-color: beige; 
+}

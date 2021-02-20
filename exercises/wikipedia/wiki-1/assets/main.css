@@ -1,0 +1,52 @@
+@font-face {
+  	src: url(fonts/HindSiliguri-Regular.ttf); 
+	font-family: HindSiliguri-Regular;
+	line-height: 1.4;
+}
+
+@font-face {
+  	src: url(fonts/JosefinSans-VariableFont_wght.ttf); 
+  	font-family: JosefinSans;
+  	line-height: 1.4;
+}
+
+h1 {
+	text-align: center; 
+	background-color: #CB2D2D;
+	padding-top: 25px; 
+	padding-bottom: 20px; 
+	font-family: JosefinSans; 
+	font-weight: bold;
+	letter-spacing: 25px; 
+}
+
+h2 {
+	text-align: center; 
+	background-color: #F1FFC4;
+	padding-top: 20px; 
+	padding-bottom: 20px; 
+	font-family: JosefinSans; 
+}
+
+h3 {
+	font-family: JosefinSans;
+	padding-top: 20px; 
+	font-weight: bold; 
+}
+
+p {
+	font-family: HindSiliguri-Regular; 
+}
+
+body {
+	margin-right: 25%;
+	margin-left: 25%; 
+}
+
+ol {
+	font-family: HindSiliguri-Regular; 
+}
+
+li {
+	font-family: HindSiliguri-Regular;
+}

@@ -1,0 +1,107 @@
+@font-face {
+  font-family: Roboto; 
+  src: url(fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: Cousine; 
+  src: url(fonts/Cousine-Bold.ttf);
+  font-weight: bold; 
+  font-style: bold; 
+}
+
+body {
+  background-color: #F2E9E4;
+  position: static;
+}
+
+.wrapper {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.col {
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 50%; 
+  padding-right: 20px; 
+}
+
+@media (max-width: 1280px) {
+  .title {
+  font-size: 100px; 
+  font-family: Cousine; 
+  padding-left: 20px; 
+  }
+
+  h2 {
+  padding-left: 20px; 
+  font-family: Roboto; 
+  }
+
+  p {
+    padding-left: 20px; 
+    font-family: Roboto; 
+    font-weight: bold; 
+  }
+
+  img {
+    padding-top: 30px; 
+    height: 100%; 
+    width: 100%; 
+  }
+}
+
+@media (max-width: 730px) {
+  .title {
+    font-size: 60px; 
+    font-family: Cousine; 
+    padding-left: 20px; 
+  }
+
+  h2 {
+    padding-left: 14px; 
+    font-family: Roboto; 
+  }
+
+  p {
+    padding-left: 14px; 
+    font-family: Roboto; 
+    font-weight: bold; 
+  }
+
+  img {
+    padding-top: 30px; 
+    height: 300px; 
+    width: 300px; 
+  }
+}
+
+@media (max-width: 729px) {
+  .title {
+    font-size: 60px; 
+    font-family: Cousine; 
+    padding-left: 20px; 
+  }
+
+  h2 {
+    padding-left: 20px; 
+    font-family: Roboto; 
+  }
+
+  p {
+    padding-left: 20px; 
+    font-family: Roboto; 
+    font-weight: bold; 
+  }
+
+  img {
+    padding-top: 30px; 
+    position: relative;
+  }
+}
+
+
+

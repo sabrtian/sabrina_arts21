@@ -1,0 +1,63 @@
+
+body {
+  background-color: lightblue;
+  font-family: sans-serif;
+  color: black;
+  font-size: 100px;
+}
+
+#smiley {
+  height:300px;
+}
+
+.path {
+  stroke-dasharray: 20;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bounce {
+  animation: 4s infinite ease-in-out; 
+}
+
+div.container {
+  animation: bounce 5s ease-in-out 1s; 
+}
+
+@keyframes rotate {
+  50% {
+    transform: rotate(0.5turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes bounce {
+  10% {
+    transform: translate(0px, -200px);
+  }
+  20% {
+    transform: translate(0px, 0px);
+
+  }
+  40% {
+    transform: translate(0px, -150px);
+  }
+  60% {
+    transform: translate(0px, 0px);
+
+  }
+  80% {
+    transform: translate(0px, -100px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}

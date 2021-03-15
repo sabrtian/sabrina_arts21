@@ -80,6 +80,15 @@
 	align-items: center;
 }
 
+.info {
+	padding-top: 100px;
+	padding-bottom: 50px;  
+	padding-left: 50px; 
+	padding-right: 50px; 
+	position: relative; 
+
+}
+
 /*.circle {
 	width: 200px; 
 	height: 200px; 

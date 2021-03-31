@@ -1,0 +1,49 @@
+body {
+  font-family: arial;
+  padding: 3rem;
+}
+
+.grid-container {
+  display: grid; 
+  grid-template-columns: auto auto auto; 
+  margin-right: auto; 
+  margin-left: auto; 
+}
+
+.container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.dog1 {
+  width: 60%; 
+}
+
+.dog2 {
+  width: 60%; 
+}
+
+.dog3 {
+  width: 60%; 
+}
+
+.item {
+  max-width: 960px;
+  text-align: center;
+}
+
+.button {
+  border: 2px solid;
+  padding: 20px;
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  font-size: 36px;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}

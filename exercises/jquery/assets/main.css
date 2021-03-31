@@ -1,13 +1,11 @@
 body {
   font-family: arial;
-  padding: 3rem;
+  padding: 7rem;
 }
 
 .grid-container {
   display: grid; 
   grid-template-columns: auto auto auto; 
-  margin-right: auto; 
-  margin-left: auto; 
 }
 
 .container {
@@ -37,9 +35,11 @@ body {
 .button {
   border: 2px solid;
   padding: 20px;
+  /*margin-top: 50px; */
   padding-top: 10px; 
   padding-bottom: 10px; 
   font-size: 36px;
+  position: fixed; 
 }
 
 .button:hover {

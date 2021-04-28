@@ -1,0 +1,230 @@
+ GENERAL */
+@font-face {
+	src: url(fonts/Tenez-Regular.otf);
+	font-family: Tenez; 
+	font-weight: normal; 
+}
+
+@font-face {
+	src: url(fonts/Tenez-Italic.otf);
+	font-family: Tenez; 
+	font-style: italic;
+}
+
+@font-face {
+	src: url(fonts/Libertad-Regular.otf);
+	font-family: Libertad; 
+	font-weight: normal; 
+}
+
+.home {
+	height: 100vh; 
+	min-height: 100vh; 
+	padding: 10px; 
+	/*overflow: hidden;*/
+}
+
+p {
+	font-family: Libertad; 
+	font-weight: normal;  
+	line-height: 27px; 
+}
+
+a {
+	color: inherit;
+	text-decoration: unset;
+}
+
+h2 {
+	font-family: Tenez; 
+	font-weight: normal; 
+	margin-top: -5px; 
+	margin-bottom: -5px; 
+	font-size: 36px; 
+}
+
+hr {
+	border: 0.5px solid black; 
+}
+
+.row {
+	display: flex; 
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.col {
+	display: flex; 
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 50vw; 
+}
+
+/* HOME PAGE */
+.home {
+	background-color: #E3F6F5; 
+	position: absolute;
+}
+
+.page {
+	background-color: #FFFF; 
+}
+
+.about {
+	line-height: 27px;
+	padding-right: 50px; 
+}
+
+/*.proj1-preview {
+	display: block;  
+	margin-bottom: 0; 
+	position: absolute;
+	z-index: 4; 
+}
+
+.proj2-preview {
+	display: none; 
+	width: 45%; 
+	height: 45%; 
+	margin-bottom: 0;
+	position: absolute;
+	z-index: 3; 
+}
+
+.proj3-preview {
+	margin-bottom: 0;
+	width: 45%; 
+	height: 45%; 
+	display: none; 
+	position: absolute;
+	z-index: 2; 
+}
+
+.proj4-preview {
+	margin-bottom: 0;
+	width: 45%; 
+	height: 45%; 
+	display: none; 
+	position: absolute;
+	z-index: 1; 
+}
+
+.project1:hover .proj1-preview {
+	display: block; 
+}
+
+.project2:hover .proj2-preview {
+	display: block; 
+}
+
+.project3:hover .proj3-preview {
+	display: block; 
+}
+
+.project4:hover .proj4-preview {
+	display: block; 
+}*/
+
+.project1:hover {
+	background: white; 
+	color: black; 
+}
+
+.project2:hover {
+	background: white; 
+	color: black; 
+}
+
+.project3:hover {
+	background: white; 
+	color: black; 
+}
+
+.project4:hover {
+	background: white; 
+	color: black; 
+}
+
+/* PROJECT PAGES */
+.wrapper {
+	padding: 110px; 
+	padding-left: auto; 
+	padding-right: auto; 
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding: 10px; 
+	position: fixed; 
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center; 
+}
+
+.link {
+	font-family: Tenez; 
+	text-decoration: underline;
+	text-align: center; 
+}
+
+.button {
+	font-family: Tenez; 
+	border: 1px solid black;
+	padding: 10px; 
+	margin-left: 400px; 
+	margin-right: 400px; 
+	text-align: center; 
+}
+
+.tools {
+	font-family: Tenez; 
+	font-style: italic;
+	text-align: center; 
+}
+
+.footer {
+	display: flex; 
+	display-direction: row;
+	justify-content: space-between;
+	margin-left: 60px; 
+	margin-right: 60px; 
+	margin-bottom: 100px; 
+}
+
+.center {
+	display: block; 
+	margin-left: auto;
+	margin-right: auto; 
+	border: 1px solid black; 
+	width: 100%; 
+	margin-bottom: 20px; 
+}
+
+.grid {
+	display: grid;
+	margin: 0;
+	width: 100%; 
+	grid-template-columns: auto auto; 
+}
+
+.grid-items-left {
+	display: block; 
+	border: 1px solid black; 
+	width: 100%; 
+	margin-bottom: 20px; 
+	margin-right: 20px;  
+}
+
+.grid-items-right {
+	display: block; 
+	border: 1px solid black; 
+	width: 100%; 
+	margin-bottom: 20px; 
+	margin-left: 20px;  
+}

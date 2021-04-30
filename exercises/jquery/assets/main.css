@@ -22,13 +22,6 @@ img {
   left: 100; 
 }
 
-.grid-container {
-  display: grid; 
-  grid-template-columns: auto auto auto; 
-  column-gap: 10px; 
-  grid-row-gap: 10px; 
-}
-
 .dog1 {
   width: 60%;  
   padding-right: 10px; 
@@ -89,18 +82,6 @@ img {
   padding-right: 10px;
 }
 
-.item {
-  max-width: 960px;
-  text-align: center;
-}
-
-.container {
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
-}
-
 .button {
   border: 2px solid;
   padding: 20px;
@@ -108,9 +89,7 @@ img {
   padding-bottom: 10px; 
   margin-top: 25px; 
   font-size: 36px;
-  position: fixed; /*
-  margin-right: auto; 
-  margin-left: auto; */
+  position: fixed; 
   position: fixed;
   top: 0; 
   z-index: 100; 
